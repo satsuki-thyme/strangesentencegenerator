@@ -12,4 +12,4 @@
 - 前項のどの文字を使うのか選択することができます
 
 ## CDN
-
+- https://cdn.jsdelivr.net/gh/satsuki-thyme/strangesentencegenerator.js@main/ssg.min.js
