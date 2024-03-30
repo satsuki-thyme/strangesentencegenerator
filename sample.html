@@ -1,0 +1,96 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<div id="generator-body"></div>
+<script src="ssg.js"></script>
+<script>
+ssg(`#generator-body`)
+</script>
+<style>
+body {
+  overflow-y: scroll;
+}
+#generator-body {
+  width: 98%;
+  max-width: 600px;
+  margin: auto;
+}
+#ssg-app-area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#ssg-upper-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ssg-upper-area-contents + .ssg-upper-area-contents {
+  margin-left: 10px;
+}
+#ssg-num-char {
+  width: 3em;
+  margin-left: 5px;
+}
+#ssg-output-interface {
+  flex-grow: 1;
+  font-size: 20px;
+}
+#ssg-middle-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+#ssg-output-interface-vertical {
+  width: 1em;
+  padding: 5px;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+#ssg-expand-button-area {
+  margin-top: 10px;
+  text-align: right;
+}
+.ssg-large-label {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 120%;
+  font-weight: bold;
+}
+.ssg-medium-group {
+  width: 95%;
+  margin-left: 5%;
+}
+.ssg-medium-label {
+  display: inline-block;
+  font-weight: bold;
+}
+:not(.ssg-large-label) + .ssg-medium-label {
+  margin-top: 20px;
+}
+.ssg-item-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+}
+.ssg-item-label {
+  display: inline-block;
+  flex-basis: 45px;
+}
+.ssg-add-char-label {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 120%;
+  font-weight: bold;
+}
+#ssg-add-char-area {
+  width: 95%;
+  margin-left: 5%;
+}
+#ssg-add-char {
+  width: 90%;
+  height: 150px;
+  margin: auto;
+}
+</style>
